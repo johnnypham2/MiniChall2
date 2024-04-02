@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniChall2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82237ba0569512954905e2431ba4b2ca5a47cc58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cda95926488e86b02e20421b04fb06218ac669f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniChall2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniChall2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
