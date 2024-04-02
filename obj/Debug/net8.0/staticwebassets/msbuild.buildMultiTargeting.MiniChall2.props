@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MiniChall2.props" />
+</Project>

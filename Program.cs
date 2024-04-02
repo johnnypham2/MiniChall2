@@ -36,6 +36,25 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
+app.MapGet("/sum", (int x, int y) => {
+    return $"the sum of {x} + {y} is: {x + y}";
+});
+
+app.MapGet("/input", (string name, string up) => {
+    return name + " woke up at " + up;
+});
+
+app.MapGet("/equal", (int x, int y) => {
+  
+   if (x == y){
+    return x + " is equal to " + y;
+   }else if (x>y){
+    return x + " is greater than " + y;
+   }else{
+    return x + " is less than " + y;
+   }
+});
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
